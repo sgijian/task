@@ -1,0 +1,37 @@
+.video-background {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    z-index: -1;
+}
+canvas {
+    display: block;
+    margin: 50px auto; /* 增加上下外边距，让页面更透气 */
+    background: linear-gradient(to bottom right, #4CAF50, #009688); /* 渐变背景 */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* 添加轻微阴影 */
+    border: 3px solid #ccc; /* 边框 */
+}
+#scoreBoard {
+    text-align: center;
+    font-size: 24px;
+    font-weight: bold;
+    margin-top: 20px;
+}
+    button {
+     background-color: #4CAF50;
+     color: white;
+     padding: 10px 20px;
+     text-align: center;
+     text-decoration: none;
+     display: inline-block;
+     font-size: 16px;
+     margin: 10px 2px;
+     cursor: pointer;
+     border: none;
+ }
+button:hover {
+    opacity: 0.8;
+}

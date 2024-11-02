@@ -1,0 +1,90 @@
+.navbar {
+    background-color: #000000e1;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    padding: 5px 20px;
+}
+
+.navbar .nav-content {
+    flex: 1;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.navbar .nav-links {
+    display: flex;
+    align-items: center;
+}
+
+.navbar .nav-links span {
+    margin-right: 20px;
+    cursor: pointer;
+}
+
+.navbar .search-form {
+    display: flex;
+    align-items: center;
+}
+
+.navbar .search-form input {
+    margin-right: 10px;
+}
+.dropdown-menu a {
+    color: #333;
+}
+.dropdown-menu a:hover {
+    background-color: #f8f9fa;
+}
+
+
+.sidebar {
+    width: 150px;
+    height: 200px;
+    background-color: #f8f9fa;
+    border-left: 1px solid #dee2e6;
+    padding: 20px;
+}
+
+.sidebar ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.sidebar li {
+    margin-bottom: 10px;
+}
+
+.sidebar a {
+    text-decoration: none;
+    color: #000;
+}
+
+.container {
+    width: 75%;
+    padding: 30px 0;
+    margin: 10px 150px;
+    display: flex;
+}
+
+.content-col {
+    flex: 1;
+    margin-right: 15px;
+}
+
+.content-col:last-child {
+    margin-right: 0;
+}
+
+.jumbotron {
+    background-color: #00000034;
+    margin: 10px 10px;
+    padding: 20px 20px;
+}
+
+.container .button {
+    margin: 10px 10px;
+    background-color: #fff;
+    border: 2px solid #888;
+}
